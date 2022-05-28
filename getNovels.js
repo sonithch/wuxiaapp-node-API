@@ -13,7 +13,7 @@ const getNovels = async (query) => {
     const image = novel.querySelector("img");
     return {
       title: novel.attrs.title,
-      link: novel.attrs.href,
+      url: novel.attrs.href,
       imgUrl: image.attrs.src,
     };
   });
